@@ -1,7 +1,7 @@
 # SSH Keys with Multiple GitHub Accounts
 Multi SSH key
 
-## Creating SSH Keys
+#### Creating SSH Keys
 If you already have multiple SSH keys, you probably won’t need to make new ones. However, you might need to register them with ssh-agent if you haven’t done so already. If you are having problems, creating a new SSH key is quick and easy to do.
 
 Viewing Existing Keys
@@ -11,7 +11,7 @@ If you’ve followed SSH key creation steps before, you’ll likely have a file 
 
 If you already have all of the SSH keys you want, you can skip the creation steps. Otherwise, read on for instructions for creating one or more new keys.
 
-Creating a New SSH Key
+**Creating a New SSH Key**
 You create a new key by running the following command, substituting for your own email address:
 
 ```bash
@@ -28,7 +28,7 @@ Repeat the process again to create id_rsa_work
 
 The final step is to secure the keys with a passphrase. Do so.
 
-Registering your new SSH Keys
+**Registering your new SSH Keys**
 New keys need registered before they are useful. To register, we need to use ssh-agent and to use that, we need to first make sure it is running:
 
 ```bash
