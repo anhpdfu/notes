@@ -118,8 +118,8 @@ It’s time to add a VS Code Launch Configuration in order to run your applicati
       "type": "node",
       "request": "launch",
       "name": "Launch App.js",
-      "program": "${workspaceRoot}/src/app.js",
-      "outFiles": [ "${workspaceRoot}/.compiled/**/*.js" ]
+      "program": "${workspaceRoot}\\src\\app.js",
+      "outFiles": [ "${workspaceRoot}\\.compiled\\**\\*.js" ]
     }
 }
 ```
@@ -140,15 +140,15 @@ Note that our launch configuration is set up to always run the `src/app.js` appl
       "type": "node",
       "request": "launch",
       "name": "Launch App.js",
-      "program": "${workspaceRoot}/src/app.js",
-      "outFiles": [ "${workspaceRoot}/.compiled/**/*.js" ]
+      "program": "${workspaceRoot}\\src\\app.js",
+      "outFiles": [ "${workspaceRoot}\\.compiled\\**\\*.js" ]
     },
     {
       "type": "node",
       "request": "launch",
       "name": "Launch Current File",
       "program": "${file}",
-      "outFiles": [ "${workspaceRoot}/.compiled/**/*.js" ]
+      "outFiles": [ "${workspaceRoot}\\.compiled\\**\\*.js" ]
     }
 }
 ```
