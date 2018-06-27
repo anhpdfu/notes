@@ -31,3 +31,4 @@
 - wesbos.theme-cobalt2-2.1.6
 - esbenp.prettier-vscode-1.5.0
 - octref.vetur-0.12.5
+- msjsdiag.debugger-for-chrome-4.7.0
