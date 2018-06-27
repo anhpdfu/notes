@@ -15,7 +15,7 @@ If you already have all of the SSH keys you want, you can skip the creation step
 You create a new key by running the following command, substituting for your own email address:
 
 ```bash
-ssh-keygen -t rsa -b 4096 -C “your_email@example.com”
+$ ssh-keygen -t rsa -b 4096 -C “your_email@example.com”
 ```
 
 You’ll be prompted to “Enter file in which to save the key”. You should use the standard id_rsa prefix followed by a descriptive name for your key.
@@ -32,13 +32,13 @@ The final step is to secure the keys with a passphrase. Do so.
 New keys need registered before they are useful. To register, we need to use ssh-agent and to use that, we need to first make sure it is running:
 
 ```bash
-eval "$(ssh-agent -s)"
+$ eval "$(ssh-agent -s)"
 ```
 
 Once running, you can then add your new keys. Repeat the following command for all new keys you have added, substituting the correct path to the private key. For example:
 
 ```bash
-ssh-add ~/.ssh/id_rsa_personal
+$ ssh-add ~/.ssh/id_rsa_personal
 ```
 
 Add your SSH Keys to GitHub.com
@@ -47,7 +47,7 @@ You can follow the GitHub Documentation in case this process changes on their we
 To copy the public key to the clipboard, run the following, substituting for the correct filename:
 
 ```bash
-pbcopy < ~/.ssh/id_rsa_personal.pub
+$ pbcopy < ~/.ssh/id_rsa_personal.pub
 ```
 
 ⚠️ Note, you want to be really careful that you match up the correct key with the correct GitHub account otherwise you are in for a world of confusion. You see now why I recommend descriptive names for them?
@@ -57,7 +57,7 @@ When signed in to GitHub.com (with the right account!) click on your avatar and 
 Registering an SSH Key on GitHub.com
 
 ```bash
-touch ~/.ssh/config
+$ touch ~/.ssh/config
 ```
 
 Here is an example from my `~/.ssh/config` file
@@ -77,7 +77,7 @@ IdentityFile ~/.ssh/id_rsa
 ```
 
 ```bash
-git@github.com:USERNAME/PROJECT.git
+$ git@github.com:USERNAME/PROJECT.git
 ```
 
 ```bash
@@ -90,10 +90,10 @@ IdentityFile ~/.ssh/id_rsa_personal
 
 **uses standard SSH key**
 ```bash
-git clone git@github.com:CDRussell/SurvivingPresenters.git
+$ git clone git@github.com:CDRussell/SurvivingPresenters.git
 ```
 
 **uses personal SSH key**
 ```bash
-git clone git@me.github.com:CDRussell/SurvivingPresenters.git
+$ git clone git@me.github.com:CDRussell/SurvivingPresenters.git
 ```
