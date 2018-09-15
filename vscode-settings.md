@@ -15,13 +15,14 @@
     "editor.renderWhitespace": "all",
     "editor.tabSize": 2,
     "editor.rulers": [
-      80,
-      100
+      100,
+      140
     ],
     "files.trimTrailingWhitespace": true,
     "prettier.eslintIntegration": true,
     "workbench.startupEditor": "none",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.cursorBlinking": true,
     "git.autofetch": true
 }
 ```
