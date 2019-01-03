@@ -14,6 +14,7 @@
     "editor.cursorBlinking": "smooth",
     "editor.renderWhitespace": "all",
     "editor.tabSize": 2,
+    "editor.insertSpaces": true,
     "editor.rulers": [
       100,
       140
@@ -29,7 +30,28 @@
 
 ### Extensions
 
-- wesbos.theme-cobalt2-2.1.6
-- esbenp.prettier-vscode-1.5.0
-- octref.vetur-0.12.5
-- msjsdiag.debugger-for-chrome-4.7.0
+- wesbos.theme-cobalt2-2.1.6 --- Cobalt2 Theme Official (Wes Bos)
+- esbenp.prettier-vscode-1.5.0 --- Prettier - Code formatter (Esben Petersen)
+- octref.vetur-0.12.5 --- Vetur (Pine Wu)
+- msjsdiag.debugger-for-chrome-4.7.0 --- Debugger for Chrome (Microsoft)
+- Dracular Official (Dracula Theme)
+- Docker (Microsoft)
+
+
+```json
+{
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+      100,
+      140
+    ],
+    "[javascript]": {
+      "editor.tabSize": 2,
+    },
+    "files.exclude": {
+      "node_modules/": false,
+      "package-lock.json": false,
+      ".vscode": false
+    }
+  }
+```
