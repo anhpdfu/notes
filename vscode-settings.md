@@ -2,29 +2,30 @@
 
 ```json
 {
-    "workbench.colorTheme": "Cobalt2",
-    "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 14,
-    "editor.lineHeight": 23,
-    "editor.letterSpacing": 0.5,
-    "editor.fontWeight": "400",
-    "editor.cursorStyle": "block",
-    "editor.cursorWidth": 10,
-    "editor.cursorBlinking": "smooth",
-    "editor.renderWhitespace": "all",
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-    "editor.rulers": [
-      100,
-      140
-    ],
-    "files.trimTrailingWhitespace": true,
-    "prettier.eslintIntegration": true,
-    "workbench.startupEditor": "none",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "terminal.integrated.cursorBlinking": true,
-    "git.autofetch": true
+  "workbench.colorTheme": "Cobalt2",
+  "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 23,
+  "editor.letterSpacing": 0.5,
+  "editor.fontWeight": "400",
+  "editor.cursorStyle": "block",
+  "editor.cursorWidth": 10,
+  "editor.cursorBlinking": "smooth",
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.rulers": [
+    100,
+    140
+  ],
+  "files.trimTrailingWhitespace": true,
+  "prettier.eslintIntegration": true,
+  "workbench.startupEditor": "none",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontSize": 13,
+  "git.autofetch": true
 }
 ```
 
@@ -40,18 +41,18 @@
 
 ```json
 {
-    "editor.renderWhitespace": "all",
-    "editor.rulers": [
-      100,
-      140
-    ],
-    "[javascript]": {
-      "editor.tabSize": 2,
-    },
-    "files.exclude": {
-      "node_modules/": false,
-      "package-lock.json": false,
-      ".vscode": false
-    }
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [
+    100,
+    140
+  ],
+  "[javascript]": {
+    "editor.tabSize": 2,
+  },
+  "files.exclude": {
+    "node_modules/": false,
+    "package-lock.json": false,
+    ".vscode": false
   }
+}
 ```
