@@ -34,7 +34,7 @@
 - esbenp.prettier-vscode-1.5.0 --- Prettier - Code formatter (Esben Petersen)
 - octref.vetur-0.12.5 --- Vetur (Pine Wu)
 - msjsdiag.debugger-for-chrome-4.7.0 --- Debugger for Chrome (Microsoft)
-- Dracular Official (Dracula Theme)
+- Dracula Official (Dracula Theme)
 - Docker (Microsoft)
 
 
