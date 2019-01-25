@@ -37,6 +37,7 @@
 - msjsdiag.debugger-for-chrome-4.7.0 --- Debugger for Chrome (Microsoft)
 - Dracula Official (Dracula Theme)
 - Docker (Microsoft)
+- wayou.vscode-todo-highlight-1.0.4 --- TODO Highlight (Wayou Liu)
 
 
 ```json
