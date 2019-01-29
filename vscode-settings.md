@@ -59,6 +59,7 @@
 }
 ```
 
+.eslintrc.js
 ```js
 module.exports = {
     "env": {
