@@ -38,6 +38,7 @@
 - Dracula Official (Dracula Theme)
 - Docker (Microsoft)
 - wayou.vscode-todo-highlight-1.0.4 --- TODO Highlight (Wayou Liu)
+- dbaeumer.vscode-eslint-1.8.0 --- ESLint (Dirk Baeumer)
 
 
 ```json
@@ -56,4 +57,36 @@
     ".vscode": false
   }
 }
+```
+
+```js
+module.exports = {
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single",
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+};
 ```
