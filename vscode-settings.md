@@ -39,6 +39,7 @@
 - Docker (Microsoft)
 - wayou.vscode-todo-highlight-1.0.4 --- TODO Highlight (Wayou Liu)
 - dbaeumer.vscode-eslint-1.8.0 --- ESLint (Dirk Baeumer)
+- Swagger Viewer (Arjun G)
 
 
 ```json
